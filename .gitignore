@@ -1,0 +1,71 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+.nox/
+
+# Editor specific
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# GenAI specific
+# Large models and checkpoints (often stored separately or downloaded)
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.ckpt
+checkpoints/
+models/
+weights/
+
+# Datasets and processed data
+data/
+datasets/
+processed_data/
+
+# Experiment logs and results
+logs/
+runs/
+results/
+outputs/
+wandb/
+mlruns/ # For MLflow
+
+# Configuration files with sensitive information (e.g., API keys)
+*.env
+.env.*
+config.ini
+secrets.yaml
